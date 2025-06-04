@@ -1,1 +1,1 @@
-sudo systemctl start test-automation
+/home/annisanakiashakila/golang/test-automation/test-automation
