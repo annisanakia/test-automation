@@ -40,10 +40,11 @@ func main() {
 	loc, _ := time.LoadLocation("Asia/Jakarta")
 	now := time.Now().In(loc)
 	logTime := now.Format(time.RFC1123)
+	uniqueCode := now.Format("02012006150405")
 
 	// Insert data
 	role := Roles{
-		RoleName:    "Test Automation",
+		RoleName:    "Test Automation " + uniqueCode,
 		Description: logTime,
 	}
 
