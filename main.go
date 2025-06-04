@@ -54,4 +54,6 @@ func main() {
 	}
 
 	fmt.Println("Berhasil insert role dengan ID:", role.RoleID)
+
+	return
 }
