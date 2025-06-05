@@ -1,6 +1,6 @@
 module test-1
 
-go 1.24.0
+go 1.24
 
 require (
 	filippo.io/edwards25519 v1.1.0 // indirect
