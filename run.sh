@@ -1,3 +1,4 @@
+#!/bin/bash
 /home/annisanakiashakila/golang/test-automation/test-automation
 
-echo "Run at $(date)" >> /home/annisanakiashakila/golang/test-automation/logs.tx
+echo "Log run at $(date)" >> /home/annisanakiashakila/golang/test-automation/logs.txt

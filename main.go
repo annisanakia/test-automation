@@ -6,16 +6,15 @@ import (
 	"os"
 	"time"
 
-	"github.com/joho/godotenv"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )
 
 func main() {
-	err := godotenv.Load()
-	if err != nil {
-		panic(fmt.Errorf("failed to load env file: %w", err))
-	}
+	// err := godotenv.Load()
+	// if err != nil {
+	// 	panic(fmt.Errorf("failed to load env file: %w", err))
+	// }
 
 	dbBtimApiHost := os.Getenv("DB_BTIM_API_HOST")
 	dbBtimApiPort := os.Getenv("DB_BTIM_API_PORT")
